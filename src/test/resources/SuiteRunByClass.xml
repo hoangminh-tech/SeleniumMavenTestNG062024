@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Regresstion" verbose="1">
+    <test name="First Test">
+        <classes>
+            <class name="minh.com.bai9TestNG_Framework1.DemoTestNG" />
+            <class name="minh.com.bai9TestNG_Framework1.DemoTestNG_02" />
+            <class name="minh.com.bai9TestNG_Framework1.DemoTestNG_03" />
+
+        </classes>
+    </test>
+<!--    <test name="Second Test">-->
+<!--        <classes>-->
+<!--            <class name="minh.com.bai9TestNG_Framework1.DemoTestNG" />-->
+<!--            <class name="minh.com.bai9TestNG_Framework1.DemoTestNG_02" />-->
+<!--            <class name="minh.com.bai9TestNG_Framework1.DemoTestNG_03" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

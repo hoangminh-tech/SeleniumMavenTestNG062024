@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Run Hon Hop" verbose="1">
+    <test name="Run Ket Hop">
+        <packages>
+            <package name="minh.com.Package_demo.package_01"/>
+<!--            <package name="minh.com.Package_demo.package_02"/>-->
+<!--            <package name="minh.com.Package_demo.*"/>-->
+        </packages>
+        <classes>
+            <class name="minh.com.bai9TestNG_Framework1.DemoTestNG"/>
+
+            <class name="minh.com.bai9TestNG_Framework1.DemoTestNG_02">
+                <methods>
+                    <include name="testEditCustomer"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

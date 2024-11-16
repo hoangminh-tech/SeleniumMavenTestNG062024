@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Regresstion" verbose="1">
+    <test name="First Test">
+        <packages>
+<!--            <package name="minh.com.Package_demo.package_01"/>-->
+<!--            <package name="minh.com.Package_demo.package_02"/>-->
+            <package name="minh.com.Package_demo.*"/>
+        </packages>
+    </test>
+
+</suite>
